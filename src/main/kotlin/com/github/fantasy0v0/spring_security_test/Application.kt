@@ -6,8 +6,8 @@ import org.springframework.context.annotation.Import
 
 @Import(SecurityConfiguration::class)
 @SpringBootApplication
-class SpringSecurityTestApplication
+class Application
 
 fun main(args: Array<String>) {
-	runApplication<SpringSecurityTestApplication>(*args)
+	runApplication<Application>(*args)
 }
